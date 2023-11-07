@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.order {
+    background-color: rgb(204, 0, 255);
+    width: auto;
+    height: auto;
+
+}
+
+.page {
+    display: flex;
+    font-size: 13px;
+    gap: 5px;
+    padding: 5px 10px;
+
+}
+
+.page button {
+    margin: 10px;
+    height: fit-content;
+    width: fit-content;
+}

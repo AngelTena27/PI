@@ -1,0 +1,20 @@
+
+.container {
+    display: grid;
+    place-content: center;
+    height: calc(100vh - 24px);
+    background-image: url("../../assets/background.jpg");
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    color: white
+}
+
+.fondo {
+    position: absolute;
+    top: 0;
+    width: calc( 100vw - 24px );
+    height: calc(100vh - 6px);
+    object-fit: cover;
+
+}
